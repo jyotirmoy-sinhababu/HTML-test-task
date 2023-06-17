@@ -1,14 +1,18 @@
 import React from 'react';
 
+import './introStyle.css';
+
 import Btn from '../btn/Btn';
 import intro from '../../asset/img/intro.png';
 
 const Intro = () => {
   return (
-    <div>
-      <div>
-        <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </h1>
-        <p>
+    <div className='main-intro-cnt'>
+      <div className='intro-txt-cnt'>
+        <h1 className='intro-header'>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit.{' '}
+        </h1>
+        <p className='intro-para'>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur odit
           possimus id laboriosam et hic sequi officiis dolorem dolores?
           Voluptatum similique optio eos iste adipisci cum non sed eaque
@@ -18,8 +22,8 @@ const Intro = () => {
         </p>
         <Btn />
       </div>
-      <div>
-        <img src={intro} alt='' />
+      <div className='intro-img-cnt '>
+        <img className='intro-img' src={intro} alt='intro-img' />
       </div>
     </div>
   );

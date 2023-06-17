@@ -24,6 +24,11 @@
   border: none;
   background-color: white;
   font-size: 19px;
-  font-weight: 700;
+  font-weight: 600;
   cursor: pointer;
+}
+
+.nav-btn:hover {
+  color: rgb(23, 177, 177);
+  font-weight: 700;
 }
