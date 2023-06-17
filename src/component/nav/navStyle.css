@@ -4,7 +4,8 @@
   align-items: center;
   flex-direction: column;
   gap: 25px;
-  padding-top: 40px;
+  padding: 20px;
+  border-bottom: 1px solid black;
 }
 
 .nav-img-cnt {

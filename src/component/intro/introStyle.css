@@ -1,0 +1,16 @@
+.main-intro-cnt {
+  display: flex;
+  justify-content: space-around;
+}
+
+.intro-txt-cnt {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  padding-top: 20px;
+  width: 600px;
+}
+
+.intro-img {
+  height: 400px;
+}
