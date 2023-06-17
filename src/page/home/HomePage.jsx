@@ -8,6 +8,7 @@ import TxtCnt from '../../component/txtCnt/TxtCnt';
 import FirstCardCnt from '../../component/firstCardCnt/FirstCardCnt';
 import ImgCard from '../../component/imgCard/ImgCard';
 import ProductCard from '../../component/product/ProductCard';
+import ProfileCnt from '../../component/profileCnt/ProfileCnt';
 
 const HomePage = () => {
   return (
@@ -23,6 +24,7 @@ const HomePage = () => {
       <div className='home-para-cnt'>
         <p className='para-cnt'>Lorem ipsum dolor sit .</p>
       </div>
+      <ProfileCnt />
     </div>
   );
 };
