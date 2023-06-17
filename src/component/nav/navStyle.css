@@ -2,4 +2,26 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  gap: 25px;
+  padding-top: 40px;
+}
+
+.nav-img-cnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-btn-cnt {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 700px;
+}
+
+.nav-btn {
+  border: none;
+  background-color: white;
+  font-size: 19px;
 }
