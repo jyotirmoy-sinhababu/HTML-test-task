@@ -10,6 +10,27 @@
 }
 
 .imgCard-img {
-  height: 100px;
-  width: 100px;
+  height: 160px;
+  width: 160px;
+}
+
+.imgCard-txt-cnt {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.imgCard-first-txt {
+  font: normal normal bold 18px/24px Nunito Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.imgCard-second-txt {
+  text-align: left;
+  font: normal normal normal 18px/24px Nunito Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
 }
