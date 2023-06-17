@@ -1,0 +1,15 @@
+.main-imgCard-cnt {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+  padding-top: 112px;
+}
+
+.imgCard-cnt {
+  width: 300px;
+}
+
+.imgCard-img {
+  height: 100px;
+  width: 100px;
+}
