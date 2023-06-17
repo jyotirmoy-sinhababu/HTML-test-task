@@ -1,0 +1,12 @@
+.main-firstCard-cnt {
+  display: flex;
+  justify-content: center;
+}
+
+.firstCard-cnt {
+  width: 900px;
+  gap: 45px;
+  padding-top: 120px;
+  display: flex;
+  justify-content: space-around;
+}
