@@ -1,26 +1,26 @@
 import React from 'react';
 
-import './navStyle.css';
+import { Navbar } from 'react-bootstrap';
 
 import navImg from '../../asset/img/navImg.png';
 
 const Nav = () => {
   return (
-    <div className='nav-main-cnt'>
-      <div className='nav-img-cnt'>
-        <img className='nav-img' src={navImg} alt='nav-head-img' />
+    <Navbar className='flex flex-column border border-end-0 border-start-0 border-top-0 bo border-3'>
+      <div className='mt-5'>
+        <img src={navImg} alt='Image' />
       </div>
-      <div className='nav-btn-cnt'>
-        <button className='nav-btn'>Nav 1</button>
-        <button className='nav-btn'>Nav 2</button>
-        <button className='nav-btn'>Nav 3</button>
-        <button className='nav-btn'>Nav 4</button>
-        <button className='nav-btn'>Nav 5</button>
-        <button className='nav-btn'>Nav 6</button>
-        <button className='nav-btn'>Nav 7</button>
-        <button className='nav-btn'>Nav 8</button>
+      <div className='d-flex justify-content-lg-around  mt-5 w-50'>
+        <div className='fs-4 fw-bold'>Nav 1</div>
+        <div className='fs-4 fw-bold'>Nav 2</div>
+        <div className='fs-4 fw-bold'>Nav 3</div>
+        <div className='fs-4 fw-bold'>Nav 4</div>
+        <div className='fs-4 fw-bold'>Nav 5</div>
+        <div className='fs-4 fw-bold'>Nav 6</div>
+        <div className='fs-4 fw-bold'>Nav 7</div>
+        <div className='fs-4 fw-bold'>Nav 8</div>
       </div>
-    </div>
+    </Navbar>
   );
 };
 

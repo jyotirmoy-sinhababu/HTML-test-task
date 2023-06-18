@@ -11,7 +11,7 @@ import lens from '../../asset/img/lens.png';
 
 const ProductCard = () => {
   return (
-    <div className='productCard-main-cnt'>
+    <div className='productCard-main-cnt '>
       <div className='productCard-first-cnt'>
         <div className='productCard-firstPart'>
           <img className='productCard-img' src={hand} alt='hand' />
