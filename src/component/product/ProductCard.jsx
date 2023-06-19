@@ -11,52 +11,60 @@ import lens from '../../asset/img/lens.png';
 
 const ProductCard = () => {
   return (
-    <div className='productCard-main-cnt '>
-      <div className='productCard-first-cnt'>
-        <div className='productCard-firstPart'>
-          <img className='productCard-img' src={hand} alt='hand' />
-          <p className='productCard-firstTxt'>Lorem ipsum dolor sit .</p>
+    <>
+      <div className='card border-0 w-50 '>
+        <div className='d-flex align-items-center  '>
+          <img src={hand} alt='' />
+          <h4 className='card-title fw-bolder'>Lorem ipsum dolor sit .</h4>
         </div>
-        <p className='productCard-secondTxt'>
-          adipiscing elit. Ut sed commodo est.Pellentesque eu placerat mauris.
-          ut maximus ante. Suspendisse varius dolor nec bibendum dignissim
-        </p>
+        <div className='card-body'>
+          <p className='card-text fs-4 fw-light'>
+            adipiscing elit. Ut sed commodo est.Pellentesque eu placerat mauris.
+            ut maximus ante. Suspendisse varius dolor nec bibendum dignissim
+          </p>
+        </div>
         <Btn />
       </div>
-      <div className='productCard-second-cnt'>
-        <div className='productCard-firstPart'>
-          <img className='productCard-img' src={arrow} alt='arrow' />
-          <p className='productCard-firstTxt'>Lorem ipsum dolor sit .</p>
+      <div className='card border-0 w-50 '>
+        <div className='d-flex align-items-center  '>
+          <img src={arrow} alt='' />
+          <h4 className='card-title fw-bolder'>Lorem ipsum dolor sit .</h4>
         </div>
-        <p className='productCard-secondTxt'>
-          adipiscing elit. Ut sed commodo est.Pellentesque eu placerat mauris.
-          ut maximus ante. Suspendisse
-        </p>
+        <div className='card-body'>
+          <p className='card-text fs-4 fw-light'>
+            adipiscing elit. Ut sed commodo est.Pellentesque eu placerat mauris.
+            ut maximus ante. Suspendisse
+          </p>
+        </div>
         <Btn />
       </div>
-      <div className='productCard-third-cnt'>
-        <div className='productCard-firstPart'>
-          <img className='productCard-img' src={lens} alt='lens' />
-          <p className='productCard-firstTxt'>Lorem ipsum dolor sit .</p>
+      <div className='card border-0 w-50 '>
+        <div className='d-flex align-items-center  '>
+          <img src={lens} alt='' />
+          <h4 className='card-title fw-bolder'>Lorem ipsum dolor sit .</h4>
         </div>
-        <p className='productCard-secondTxt'>
-          adipiscing elit. Ut sed commodo est.Pellentesque eu placerat mauris.
-          ut maximus ante. Suspendisse varius dolor nec bibendum dignissim
-        </p>
+        <div className='card-body'>
+          <p className='card-text fs-4 fw-light'>
+            adipiscing elit. Ut sed commodo est.Pellentesque eu placerat mauris.
+            ut maximus ante. Suspendisse varius dolor nec bibendum dignissim
+          </p>
+        </div>
         <Btn />
       </div>
-      <div className='productCard-forth-cnt'>
-        <div className='productCard-firstPart'>
-          <img className='productCard-img' src={direction} alt='direction' />
-          <p className='productCard-firstTxt'>Lorem ipsum dolor sit .</p>
+      <div className='card border-0 w-50 '>
+        <div className='d-flex align-items-center  '>
+          <img src={direction} alt='' />
+          <h4 className='card-title fw-bolder'>Lorem ipsum dolor sit .</h4>
         </div>
-        <p className='productCard-secondTxt'>
-          adipiscing elit. Ut sed commodo est.Pellentesque eu placerat mauris.
-          ut maximus ante. Suspendisse
-        </p>
+        <div className='card-body'>
+          <p className='card-text fs-4 fw-light'>
+            adipiscing elit. Ut sed commodo est.Pellentesque eu placerat mauris.
+            ut maximus ante. Suspendisse
+          </p>
+        </div>
         <Btn />
       </div>
-    </div>
+    </>
   );
 };
 

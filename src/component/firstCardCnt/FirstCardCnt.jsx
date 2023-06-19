@@ -1,84 +1,52 @@
 import React from 'react';
 
-import Card from 'react-bootstrap/card';
-
 const FirstCardCnt = () => {
   return (
     <div
-      style={{
-        display: 'flex',
-        padding: '101px',
-        justifyContent: 'space-around',
-      }}
+      className='d-flex justify-content-lg-evenly '
+      style={{ paddingTop: '150px' }}
     >
-      <div>
-        <Card
-          style={{
-            height: '300px',
-            display: 'flex',
-            paddingTop: '45px',
-            gap: '30px',
-            width: '300px',
-            padding: '10px',
-            boxShadow: '0px 3px 6px #00000029',
-          }}
-        >
-          <Card.Title style={{ display: 'flex', justifyContent: 'center' }}>
-            Lorem ipsum dolor sit .
-          </Card.Title>
-          <Card.Text style={{ display: 'flex', justifyContent: 'center' }}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed
-            commodo est.Pellentesque eu placerat mauris. Etiam ut maximus ante.
-            Suspendisse varius dolor nec bibendum dignissim. Proin in diam a
-            justo sollicitudin mattis eu sagittisnunc. In hac habitasse.
-          </Card.Text>
-        </Card>
+      <div
+        className='card w-25   p-3 shadow'
+        style={{ display: 'flex', gap: '25px', height: '280px' }}
+      >
+        <h4 className='d-flex card-title justify-content-center'>
+          Lorem ipsum dolor sit .
+        </h4>
+        <p className='card-text'>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed
+          commodo est.Pellentesque eu placerat mauris. Etiam ut maximus ante.
+          Suspendisse varius dolor nec bibendum dignissim. Proin in diam a justo
+          sollicitudin mattis eu sagittisnunc. In hac habitasse.
+        </p>
       </div>
-      <div>
-        <Card
-          style={{
-            height: '300px',
-            display: 'flex',
-            paddingTop: '45px',
-            gap: '30px',
-            width: '300px',
-            padding: '10px',
-            boxShadow: '0px 3px 6px #00000029',
-          }}
-        >
-          <Card.Title style={{ display: 'flex', justifyContent: 'center' }}>
-            Lorem ipsum dolor sit .
-          </Card.Title>
-          <Card.Text style={{ display: 'flex', justifyContent: 'center' }}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed
-            commodo est.Pellentesque eu placerat mauris. Etiam ut maximus ante.
-            Suspendisse varius dolor nec bibendum dignissim. Proin in diam a
-            justo sollicitudin mattis eu sagittisnunc. In hac habitasse.
-          </Card.Text>
-        </Card>
+      <div
+        className='card  w-25  p-3 shadow'
+        style={{ display: 'flex', gap: '25px', height: '280px' }}
+      >
+        <h4 className='d-flex card-title justify-content-center'>
+          Lorem ipsum dolor sit .
+        </h4>
+        <p className='card-text'>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed
+          commodo est.Pellentesque eu placerat mauris. Etiam ut maximus ante.
+          Suspendisse varius dolor nec bibendum dignissim. Proin in diam a justo
+          sollicitudin mattis eu sagittisnunc. In hac habitasse.
+        </p>
       </div>
-      <div>
-        <Card
-          style={{
-            height: '300px',
-            display: 'flex',
-            paddingTop: '45px',
-            gap: '30px',
-            width: '300px',
-            padding: '10px',
-            boxShadow: '0px 3px 6px #00000029',
-          }}
-        >
-          <Card.Title style={{ display: 'flex', justifyContent: 'center' }}>
-            Lorem ipsum dolor sit .
-          </Card.Title>
-          <Card.Text style={{ display: 'flex', justifyContent: 'center' }}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed
-            commodo est.Pellentesque eu placerat mauris. Etiam ut maximus ante.
-            Suspendisse varius dolor nec bibendum dignissim. Proin in diam a
-            justo sollicitudin mattis eu sagittisnunc. In hac habitasse.
-          </Card.Text>
-        </Card>
+      <div
+        className='card  w-25 p-3 shadow'
+        style={{ display: 'flex', gap: '25px', height: '280px' }}
+      >
+        <h4 className='d-flex card-title justify-content-center'>
+          Lorem ipsum dolor sit .
+        </h4>
+        <p className='card-text'>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed
+          commodo est.Pellentesque eu placerat mauris. Etiam ut maximus ante.
+          Suspendisse varius dolor nec bibendum dignissim. Proin in diam a justo
+          sollicitudin mattis eu sagittisnunc. In hac habitasse.
+        </p>
       </div>
     </div>
   );
