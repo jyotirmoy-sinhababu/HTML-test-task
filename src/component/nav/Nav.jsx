@@ -6,7 +6,7 @@ import navImg from '../../asset/img/navImg.png';
 
 const Nav = () => {
   return (
-    <Navbar className='flex flex-column border border-end-0 border-start-0 border-top-0 bo border-3'>
+    <Navbar className='flex flex-column border border-end-0 border-start-0 border-top-0  border-3'>
       <div className='mt-5'>
         <img src={navImg} alt='Image' />
       </div>
